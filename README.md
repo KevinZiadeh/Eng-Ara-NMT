@@ -26,7 +26,7 @@ I decided to use 80% of the data for training, 10% for validation and 10% for te
 model was overfitting, and I wasn’t able to use the whole dataset because of RAM limitations on google 
 colab.
 
-![](res/a1.png)
+![](res/a1.PNG)
 
 ## Model
 The model is a seq2seq network were the encoder takes as input the English sentences and generates a fixed-length 
@@ -38,9 +38,9 @@ word embeddings (GloVe). Glove works by building a matrix of co-occurrence.
 
 ## Example Results
 ### Inference on training set
-![](res/inf_train.png)
+![](res/inf_train.PNG)
 ### Inference on testing set
-![](res/inf_test.png)
+![](res/inf_test.PNG)
 
 
 
